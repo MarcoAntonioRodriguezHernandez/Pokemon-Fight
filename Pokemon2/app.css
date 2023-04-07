@@ -1,0 +1,100 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/121/449/307/pokemon-cartoon-minimalist-pokeball-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+
+}
+
+.pokemones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 80rem;
+    background-color: rgb(243, 243, 243);
+    padding: 2rem .2rem;
+    border-radius: 1rem;
+
+
+}
+
+.pokemones div{
+
+    height: 20rem;
+
+}
+.pokemones div img{
+    width: 16rem;
+}
+
+.pk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 20rem;
+    background-color: lightgoldenrodyellow;
+    padding: 2rem .2rem;
+    border-radius: 1rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+.bs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 20rem;
+    background-color: darkseagreen;
+    padding: 2rem .2rem;
+    border-radius: 1rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+.ch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 20rem;
+    background-color: darkorange;
+    padding: 2rem .2rem;
+    border-radius: 1rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+.sq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 20rem;
+    background-color: lightskyblue;
+    padding: 2rem .2rem;
+    border-radius: 1rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+.imgpk {
+    width: 10rem;
+    border-radius: 10%;
+}
+.showInfo{
+    margin-top: .5rem;
+}.showInfo:hover{
+     cursor: pointer;
+ }

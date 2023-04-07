@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juego</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="globales.css">
+    <link rel="stylesheet" href="juego.css">
+
+</head>
+<body>
+<div class="content">
+    <div class="superior">
+        <div class="elementos">
+            <div class="campoBatalla">
+                <div class="barra-vida">
+                    <p id="v1">Vida</p>
+                </div>
+                <div class="pokemon">
+                    <img id="pkImage1" src="Recursos\PKBattleMode.png"
+                         alt="PokemonJugador">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inferior">
+        <div class="elementos">
+            <div class="campoBatalla">
+                <div class="barra-vida">
+                    <p id="v2">Vida</p>
+                </div>
+                <div class="pokemon1">
+                    <img id="pkImage2" src="Recursos\BulSelection.png"
+                         alt="Bulbasur">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="footer">
+    <div class="texto">
+        <h1>¿Que ataque deseas utilizar?</h1>
+    </div>
+    <div class="ataques">
+        <h1>Ataques</h1>
+        <button id="btnAtack1" class="ataques" onclick="fnGolpe1()">Golpe básico</button>
+        <button id="btnAtack2" class="ataques" onclick="fnGolpe2(2)">Golpe 2</button>
+        <button id="btnAtack3" class="ataques" onclick="fnGolpe3(3)">Golpe 3</button>
+    </div>
+</div>
+
+
+<script src="juego.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemón chipiado</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+    <h1>Bienvenido a Pokemon Chipiado</h1>
+    <h3>Selecciona a tu pokemon para el combate</h3>
+    <div class="pokemones">
+        <div class="pk">
+            <h2>Pikachu chipiao</h2>
+            <img class="imgpk" alt="Pikachu"
+                 src="Recursos\PikSelection.png">
+            <button class="showInfo" onclick="mostrarinfo(1)">Mostrar Información</button>
+            <button class="showInfo" onclick="pokemonSelection(1)">Selecionar</button>
+
+        </div>
+        <div class="bs">
+            <h2>Bulbasur chipiao</h2>
+            <img class="imgpk" alt="Bulbasur"
+                 src="Recursos\BulSelection.png">
+            <button class="showInfo" onclick="mostrarinfo(2)">Mostrar Información</button>
+            <button class="showInfo" onclick="pokemonSelection(2)">Selecionar</button>
+
+        </div>
+        <div class="ch">
+            <h2>Charmander chipiao</h2>
+            <img class="imgpk" alt="Charmander"
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKdhyFprj4-XAqxi7jQgnsql7_IuClG9sqUQ&usqp=CAU">
+            <button class="showInfo" onclick="mostrarinfo(3)">Mostrar Información</button>
+            <button class="showInfo" onclick="pokemonSelection(3)">Selecionar</button>
+
+        </div>
+        <div class="sq">
+            <h2>Squirtle chipiao</h2>
+            <img class="imgpk" alt="Squirtle" src="https://media.sketchfab.com/models/a23f291aa6114a8fb461b4480f8ebe4c/thumbnails/85a2eacccedb49a19a383a51795200e3/8cc47da186e5490489e7fb54987e496a.jpeg">
+            <button class="showInfo" onclick="mostrarinfo(4)">Mostrar Información</button>
+            <button class="showInfo" onclick="pokemonSelection(4)">Selecionar</button>
+        </div>
+    </div>
+    <button class="jugar" onclick="redireccion()">JUGAR</button>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
