@@ -82,11 +82,11 @@ function fnGolpe1() {
 function fnGolpe2(atk) {
     playerAttack(atk)
     enemyAttack()
-
 }
 
 function fnGolpe3(atk) {
-    playerAttack()
+    playerAttack(atk)
+    enemyAttack()
 }
 
 function playerAttack(atk) {
